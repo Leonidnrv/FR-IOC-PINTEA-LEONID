@@ -1,0 +1,10 @@
+.image-torturi{
+    height: 250px;
+    object-fit: cover;
+    width: auto;
+}
+.afisaj{
+    padding: 20px;
+    margin: 10px 20px;
+    border-radius: 20px;
+}

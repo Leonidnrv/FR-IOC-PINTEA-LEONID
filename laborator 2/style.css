@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+header{
+    background-color: rgba(211, 112, 112, 0.95);
+    color: white;
+    padding: 5% 0;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+header h1{
+    margin-bottom: 12px;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+main{
+    padding: 20px;
+}
+.introducere{
+    display:flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #f4f4f4
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.image{
+    flex: 1;
+}
+.image img{
+    width:100%;
+    height: auto;
+}
+.text h2{
+    font-size: 26px;
+    color: #3a3a3a;
+    margin-bottom: 10px;
+}
+.text p{
+    font-size: 17px;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    color: #3a3a3a;
+    line-height: 1.5;
+}
+.sortimente-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 35px;
+}
+.prajituri{
+    background-color: white;
+    padding: 35px 85px;
+    border-radius: 20px;
+    text-align: center;
+    /* width: 100%;
+    height: 100%; */
+    object-fit: cover;
+}
+.prajituri img{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+}
+.prajituri h2{
+    margin: 30px 0 20px;
+    font-size: 25px;
+    color: #eb3c70cb;
+} 
+.prajituri p{
+    color: #3a3a3a;
+    font-size: 17px;
+    line-height: 1.5;
+}
+footer{
+    background-color: #333;
+    color:wheat;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+.videoclip iframe{
+    height:auto;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+}
+#alergeni{
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 20px;
+}
+#alergeni h2{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(240, 127, 127);
+    margin: 20px 0;
+}
+#alergeni table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+#alergeni table, th, td{
+    border: 1px solid #afadad
+}
+#alergeni th, td{
+    padding: 15px;
+    text-align: center;
+}
+.contact-container{
+    background-color: white;
+    padding: 15px;
+    padding-right: 0px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:lightgray;
+    text-align: left;
+    line-height: 1.5;
+    width: 100%;
+    display: grid;
+    gap: 250px;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+.detalii h3{
+    font-size: 30px;
+    color: rgb(240, 127, 127);
+    margin: 5px 0;
+}
+
+
+
+#preturi{
+    margin-top: 5px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+#preturi h2{
+    text-align: left;
+    font-size: 30px;
+    color: rgb(240, 127, 127);
+    margin: 20px 20px;
+}
+#preturi table{
+    width: 25%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+#preturi table, th, td{
+    border: 1px solid #afadad
+}
+#preturi th, td{
+    padding: 15px;
+    text-align: center;
+}
